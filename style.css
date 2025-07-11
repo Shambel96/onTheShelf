@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+nav ul {
+  display: flex;
+  grid-template-columns: repeat(2, 4fr);
+  justify-content: space-between;
+  padding: 30px;
+}
+nav ul li {
+  list-style-type: none;
+}
+.logo {
+  font-weight: 600;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+}
+nav ul li button {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+nav ul li button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.inside-header-div {
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+header {
+  background-image: url("assets/background-image.png");
+  height: 60vh;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 40px 10px 40px; /* space for icons */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input-wrapper i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-wrapper .fa-location-crosshairs {
+  left: 10px;
+}
+
+.input-wrapper .fa-magnifying-glass {
+  right: 10px;
+}
+.fa-magnifying-glass {
+  background-color: green;
+  width: 30px;
+  padding: 8px 5px;
+  border-radius: 5px;
+}
