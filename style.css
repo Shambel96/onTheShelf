@@ -85,3 +85,17 @@ header {
   padding: 8px 5px;
   border-radius: 5px;
 }
+.second-section {
+  width: 90%;
+  display: flex;
+  /* grid-template-columns: repeat(4, 3fr); */
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  height: 20vh;
+}
+.second-section .box {
+  text-align: center;
+  box-shadow: 5px 10px 20px red;
+  padding: 10px;
+}
