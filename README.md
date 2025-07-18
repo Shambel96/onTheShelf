@@ -1,2 +1,3 @@
 # onTheShelf
-static Website
+
+static Website with only HTML and CSS
