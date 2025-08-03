@@ -285,7 +285,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .inside-header-div {
-    width: 85%;
+    width: 90%;
   }
   .second-section-div {
     width: fit-content;
