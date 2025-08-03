@@ -61,7 +61,7 @@ header {
 
 .input-wrapper input {
   width: 100%;
-  padding: 10px 40px 10px 40px; /* space for icons */
+  padding: 10px 40px 10px 40px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
